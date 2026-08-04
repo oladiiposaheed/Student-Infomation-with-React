@@ -13,6 +13,10 @@ A student record management app built with **React** and **Tailwind CSS**.
 - 🗑️ Delete students
 - 💾 LocalStorage persistence (data survives refresh)
 
+## 🚀 Live Demo
+
+[View Student Info Live](https://student-infomation-with-react.vercel.app/)
+
 ## 🛠️ Built With
 
 - React 19
