@@ -1,6 +1,6 @@
 function Header({ viewMode, onToggleView }) {
   return (
-    <header className="bg-gradient-to-r from-blue-600 via-indigo-700 to-violet-800 text-white p-8 rounded-2xl shadow-2xl mb-8 border border-white/10">
+    <header className="sticky top-4 z-10 bg-gradient-to-r from-blue-600 via-indigo-700 to-violet-800 text-white p-8 rounded-2xl shadow-2xl mb-8 border border-white/10">
       
       <div className="flex items-center justify-between">
         
