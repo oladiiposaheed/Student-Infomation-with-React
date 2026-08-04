@@ -1,28 +1,29 @@
-# 🎓 Student Information App
-
-A student record management app built with **React** and **Tailwind CSS**.
-
-## ✨ Features
-
-- 📝 Add students (name, email, gender, age, state, country, blood group, genotype, department, subject)
-- 🎴 Card view with photo avatars
-- 📊 Table view with all records
-- 🔍 Search by name, department, or state
-- 🏷️ Filter by gender, blood group, genotype
-- 👥 Stats (total, male, female count)
-- 🗑️ Delete students
-- 💾 LocalStorage persistence (data survives refresh)
-
-## 🛠️ Built With
-
-- React 19
-- Tailwind CSS 4
-- Vite
-
-## 🏗️ Installation
-
-```bash
-git clone https://github.com/oladiiposaheed/student-info.git
-cd student-info
-npm install
-npm run dev
+{
+  "name": "student-info",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "eslint": "^10.8.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.0"
+  }
+}
