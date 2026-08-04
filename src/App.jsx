@@ -62,7 +62,7 @@ function App() {
   });
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50 p-6 md:p-10">
+    <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50 pt-0">
       
       <div className="max-w-7xl mx-auto">
 
